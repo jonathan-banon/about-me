@@ -2,3 +2,27 @@
     background-color: $primary-color;
     height: 30vh;
 }
+
+.title-container {
+    background-color: $secondary-color;
+    height: 100%;
+}
+
+.circle-1 {
+    width: 60%;
+    height: 105%;
+    background-color: white;
+    margin-left: 41%;
+    display: flex;
+    justify-content: center;
+    align-content: initial;
+    align-items: center;
+}
+
+.circle-2 {
+    background-image: url('../../public/profile.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 93%;
+    height: 96%;
+}
