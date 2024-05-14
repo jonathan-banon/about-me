@@ -54,4 +54,4 @@ To learn React, check out the [React documentation](https://reactjs.org/).
 - Run your container from you image 
     docker run -p 8000:80 react-ts-app
 
-Your app run on http://localhost:8080/ with Docker.
+Your app run on http://localhost:8000/ with Docker.

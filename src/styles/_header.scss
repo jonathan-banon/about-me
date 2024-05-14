@@ -9,20 +9,27 @@
 }
 
 .circle-1 {
-    width: 60%;
-    height: 105%;
+    width: 19vw;
+    height: 32vh;
     background-color: white;
     margin-left: 41%;
     display: flex;
     justify-content: center;
     align-content: initial;
     align-items: center;
-}
-
-.circle-2 {
     background-image: url('../../public/profile.png');
     background-size: cover;
     background-repeat: no-repeat;
-    width: 93%;
-    height: 96%;
+    border: white 50px solid;
+    margin-left: 30%;
+    background-position: -20px;
+}
+
+.header-top-right-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    height: 100%;
+    justify-content: space-around;
 }
