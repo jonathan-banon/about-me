@@ -1,7 +1,14 @@
 @import 'variables';
 @import 'header';
+@import 'sidebar';
 
-* {
-    font-family: $font-family;
+body {
+    width: 100vw;
+    height: 100vh;
+    background-color: $primary-color;
 }
 
+.App {
+    height: 30vh;
+    font-family: $font-family;
+}
