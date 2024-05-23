@@ -4,6 +4,12 @@
     flex-direction: column;
     justify-content: space-around;
     width: 25vw;
-    height: 70vh;
+    height: 72vh;
     padding-left: 20px;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
 }
