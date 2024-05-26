@@ -1,4 +1,4 @@
-export default function technicalSkills () {
+export default function TechnicalSkills () {
     return (
       <div></div>
     );
