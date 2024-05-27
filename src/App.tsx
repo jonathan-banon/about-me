@@ -2,7 +2,7 @@ import './styles/App.scss';
 import Header from './components/Header';
 import SideBar from './components/SideBar';
 import { Routes, Route } from 'react-router-dom';
-import TechnicalSkills from './screens/TechnicalSkills';
+import Skills from './screens/Skills';
 
 
 function App() {
@@ -12,7 +12,7 @@ function App() {
       <SideBar />
       <main>
         <Routes>
-          <Route path='/' element={<TechnicalSkills />}/>
+          <Route path='/' element={<Skills />}/>
         </Routes>
       </main>
     </div>
