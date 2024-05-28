@@ -1,5 +1,5 @@
-export default function Skils () {
+export default function Skills () {
     return (
-        <div></div>
+        <h1>COMPÉTENCES TECHNIQUES</h1>
     )
 }
