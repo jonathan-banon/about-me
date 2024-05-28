@@ -2,17 +2,25 @@ import './styles/App.scss';
 import Header from './components/Header';
 import SideBar from './components/SideBar';
 import { Routes, Route } from 'react-router-dom';
-import TechnicalSkills from './screens/TechnicalSkills';
+import ExpPro from './screens/ExpPro';
+import Formations from './screens/Formations';
+import Skills from './screens/Skills';
+import HomeNav from './components/HomeNav'
 
 
 function App() {
   return (
     <div className="App">
       <Header />
-      <SideBar />
-      <main>
+      <main className='flex flex-row '>
+        <SideBar />
+        <div className='basis-3/4'>
+          <HomeNav></HomeNav>
+        </div>
         <Routes>
-          <Route path='/' element={<TechnicalSkills />}/>
+          <Route path='/' element={<Skills />} />
+          <Route path='/Formations' element={<Formations />} />
+          <Route path='/ExpPro' element={<ExpPro />} />
         </Routes>
       </main>
     </div>
