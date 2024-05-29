@@ -14,14 +14,14 @@ function App() {
       <Header />
       <main className='flex flex-row '>
         <SideBar />
-        <div className='basis-3/4'>
-          <HomeNav/>
+        <div className='basis-3/4 text-white'>
+          <HomeNav />
+          <Routes>
+            <Route path='/' element={<Skills />} />
+            <Route path='/Formations' element={<Formations />} />
+            <Route path='/ExpPro' element={<ExpPro />} />
+          </Routes>
         </div>
-        <Routes>
-          <Route path='/' element={<Skills />} />
-          <Route path='/Formations' element={<Formations />} />
-          <Route path='/ExpPro' element={<ExpPro />} />
-        </Routes>
       </main>
     </div>
   );
