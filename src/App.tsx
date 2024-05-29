@@ -15,7 +15,7 @@ function App() {
       <main className='flex flex-row '>
         <SideBar />
         <div className='basis-3/4'>
-          <HomeNav></HomeNav>
+          <HomeNav/>
         </div>
         <Routes>
           <Route path='/' element={<Skills />} />

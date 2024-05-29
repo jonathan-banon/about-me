@@ -6,7 +6,7 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        primary: '#195D7E', // Remplacez cela par votre couleur primaire personnalisée
+        primary: '#195D7E',
       },
       fontSize: {
         'xs': '0.75rem', // Taille de police extra petite
