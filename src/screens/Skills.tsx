@@ -41,23 +41,50 @@ export default function Skills() {
                             </div>
                         </div>
                     </div>
-                    <div className="skills flex flex-col justify-between items-center">
+                    <div>
                         <p>Bases de données</p>
-                        <SiMysql />
-                        <GrGraphQl />
+                        <div className="skills flex flex-col justify-between items-center">
+                            <div className="skill-container">
+                                <SiMysql />
+                                <p>MySQL</p>
+                            </div>
+                            <div className="skill-container">
+                                <GrGraphQl />
+                                <p>GraphQL</p>
+                            </div>
+                        </div>
                     </div>
                 </div>
                 <div className="flex w-full justify-around h-1/2 items-center">
-                    <div className="skills">
+                    <div>
                         <p>Languages</p>
-                        <IoLogoJavascript />
-                        <FaPhp />
-                        <SiTypescript />
+                        <div className="skills">
+                            <div className="skill-container">
+                                <IoLogoJavascript />
+                                <p>Javascript</p>
+                            </div>
+                            <div className="PHP">
+                                <FaPhp />
+                                <p>PHP</p>
+                            </div>
+                            <div className="skill-container">
+                                <SiTypescript />
+                                <p>Typescript</p>
+                            </div>
+                        </div>
                     </div>
-                    <div className="skills">
+                    <div>
                         <p>Outils</p>
-                        <FaDocker />
-                        <FaGitAlt />
+                        <div className="skills">
+                            <div className="skill-container">
+                                <FaDocker />
+                                <p>Docker</p>
+                            </div>
+                            <div className="skill-container">
+                                <FaGitAlt />
+                                <p>Git</p>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
