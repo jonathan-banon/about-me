@@ -13,28 +13,54 @@ import { FaGitAlt } from "react-icons/fa6";
 
 export default function Skills() {
     return (
-        <div>
-            <IconContext.Provider value={{ size: '40px', color: 'white' }}>
-                <div>
-                    <FaVuejs />
-                    <FaSymfony />
-                    <FaReact />
-                    <TbBrandReactNative />
+        <IconContext.Provider value={{ size: '40px', color: 'white' }}>
+            <div className="h-4/5">
+                <div className="flex w-full justify-around h-1/2 items-center">
+                    <div>
+                        <p className="mb-20 text-center">Technologies</p>
+                        <div className="skills">
+                            <div className="flex justify-between">
+                                <div className="skill-container">
+                                    <FaVuejs className="" />
+                                    <p>Vue.Js</p>
+                                </div>
+                                <div className="skill-container">
+                                    <FaSymfony className="" />
+                                    <p>Symfony</p>
+                                </div>
+                            </div>
+                            <div className="flex justify-between">
+                                <div className="skill-container">
+                                    <FaReact className="" />
+                                    <p>React</p>
+                                </div>
+                                <div className="skill-container">
+                                    <TbBrandReactNative className="" />
+                                    <p>React Native</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="skills flex flex-col justify-between items-center">
+                        <p>Bases de données</p>
+                        <SiMysql />
+                        <GrGraphQl />
+                    </div>
                 </div>
-                <div>
-                    <SiMysql />
-                    <GrGraphQl />
+                <div className="flex w-full justify-around h-1/2 items-center">
+                    <div className="skills">
+                        <p>Languages</p>
+                        <IoLogoJavascript />
+                        <FaPhp />
+                        <SiTypescript />
+                    </div>
+                    <div className="skills">
+                        <p>Outils</p>
+                        <FaDocker />
+                        <FaGitAlt />
+                    </div>
                 </div>
-                <div>
-                    <IoLogoJavascript />
-                    <FaPhp />
-                    <SiTypescript />
-                </div>
-                <div>
-                    <FaDocker />
-                    <FaGitAlt />
-                </div>
-            </IconContext.Provider>
-        </div>
+            </div>
+        </IconContext.Provider>
     )
 }

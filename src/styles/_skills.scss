@@ -1,0 +1,41 @@
+svg {
+    margin: auto;
+}
+
+.skills {
+    height: 20vh;
+    width: 20vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /*animation: rotation1 4s linear infinite;*/
+}
+
+
+.skill-container {
+    min-width: 200px;
+    text-align: center;
+    /*animation: rotation2 4s linear infinite;*/
+}
+
+
+@keyframes rotation1 {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+
+@keyframes rotation2 {
+    from {
+        transform: rotate(360deg);
+    }
+
+    to {
+        transform: rotate(0deg);
+    }
+}

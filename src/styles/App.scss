@@ -2,11 +2,16 @@
 @import 'header';
 @import 'sidebar';
 @import 'homeNav';
+@import 'skills';
 
 body {
     width: 100vw;
     height: 100vh;
     background-color: $primary-color;
+}
+
+main {
+    height: 72h;
 }
 
 .App {
