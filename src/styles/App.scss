@@ -3,6 +3,7 @@
 @import 'sidebar';
 @import 'homeNav';
 @import 'skills';
+@import 'expPro';
 
 body {
     width: 100vw;
@@ -17,4 +18,10 @@ main {
 .App {
     height: 100vh;
     font-family: $font-family;
+}
+
+.body-container {
+    margin-top: 28vh;
+    margin-left: 25%;
+    width: 100%;
 }

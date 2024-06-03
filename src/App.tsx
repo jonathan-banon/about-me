@@ -14,7 +14,7 @@ function App() {
       <Header />
       <main className='flex flex-row '>
         <SideBar />
-        <div className='basis-3/4 text-white'>
+        <div className='text-white body-container'>
           <HomeNav />
           <Routes>
             <Route path='/' element={<Skills />} />
