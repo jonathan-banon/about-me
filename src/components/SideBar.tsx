@@ -10,7 +10,7 @@ import { MdOutlineSportsMotorsports } from "react-icons/md";
 export default function SideBar() {
     return (
 
-        <div className="sideBar-container">
+        <div className="sideBar-container basis-1/4 ">
             <div>
                 <p className="font-bold text-primary text-2xl">CONTACT</p>
                 <div className="logo-container">

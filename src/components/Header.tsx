@@ -2,8 +2,8 @@ export default function Header () {
     return (
         <header>
             <div className="flex flex-row h-full">
-                <div className="basis-1/4 pr-2">
-                    <div className="circle-1 rounded-full">
+                <div className="basis-1/4 flex justify-end pr-2">
+                    <div className="circle-1 rounded-full ">
                     </div>
                 </div>
                 <div className="basis-3/4 title-container">
