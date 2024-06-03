@@ -1,21 +1,18 @@
-svg {
-    margin: auto;
-}
-
 .skills {
-    height: 20vh;
-    width: 20vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    /*animation: rotation1 4s linear infinite;*/
+    height: 26vh;
+    width: 26vh;
+    animation: rotation1 4s linear infinite;
 }
 
 
 .skill-container {
-    min-width: 200px;
-    text-align: center;
-    /*animation: rotation2 4s linear infinite;*/
+    width: 13vh;
+    height: 13vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    animation: rotation2 4s linear infinite;
 }
 
 

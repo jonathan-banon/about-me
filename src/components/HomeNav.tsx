@@ -33,7 +33,7 @@ export default function HomeNav() {
     console.log(location.pathname)
     console.log(title)
     return (
-        <div className="nav-container">
+        <div className="nav-container h-1/6">
             <IconContext.Provider value={{ size: '40px', color: 'white' }}>
                 <BiSolidLeftArrow onClick={() => navigate(previousPath)} />
                 <p className="text-2xl font-bold">{title}</p>
