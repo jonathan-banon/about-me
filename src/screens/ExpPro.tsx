@@ -30,7 +30,43 @@ export default function ExpPro() {
     }, []);
 
     return (
-        <div className="grid grid-cols-6 overflow-scroll p-2.5">
+        <div className=" flex overflow-scroll p-2.5 mt-11">
+            <div className='text-end pr-6'>
+                <div className="exp-container ">
+                    <p className="text-2xl font-bold animate__fadeInRightBig">Sous officier dans l’armée de l'air</p>
+                    <p className='text-xl'>Chef d’équipe ( Sous-officier supérieur )
+                        Technicien matériel servitude aéronautique
+                        Mission de sécurité intérieure ( Vigipirate / Cuirasse )</p>
+                </div>
+                <div className='exp-container'>
+                    <p className="text-2xl font-bold">02/21 - 07/21</p>
+                </div>
+                <div className="exp-container">
+                    <p className="text-2xl font-bold">Plateforme e-sport (bénévolat)</p>
+                    <p className='text-xl'>Migration projet MVC vers Symfony 5
+                        Intégration selon maquette</p>
+                </div>
+                <div className='exp-container'>
+                    <p className="text-2xl font-bold">09/21 - 12/21</p>
+                </div>
+                <div className="exp-container">
+                    <p className="text-2xl font-bold">Groupe QERYS (CDI)</p>
+                    <p className='text-xl'>Intégration selon maquette
+                        Gestion API sur Symfony</p>
+                </div>
+                <div className='exp-container'>
+                    <p className="text-2xl font-bold">03/23 - 11/23</p>
+                </div>
+                <div className="exp-container-3">
+                    <p className="text-2xl font-bold">AIO (contrat pro + CDD) : 03/23 - actuellement en poste</p>
+                    <p className='text-xl'>Chef d’équipe ( Sous-officier supérieur )
+                        Technicien matériel servitude aéronautique
+                        Mission de sécurité intérieure ( Vigipirate / Cuirasse )</p>
+                </div>
+                <div className='exp-container'>
+                    <p className="text-2xl font-bold">2010 - 2021</p>
+                </div>
+            </div>
             <div className="flex flex-col items-center">
                 <div className="circle"></div>
                 <div className="line"></div>
@@ -45,51 +81,43 @@ export default function ExpPro() {
                 <div className="circle"></div>
                 <div className="line"></div>
                 <div className="circle"></div>
-                <div className="line"></div>
             </div>
-            <div className="col-span-5">
-                <div className="exp-container ">
-                <h1 className="animate__animated animate__bounce">An animated element</h1>
-                    <p className="text-xl font-bold animate__fadeInRightBig">Sous officier dans l’armée de l'air : 2010 - 2021</p>
-                    <p>Chef d’équipe ( Sous-officier supérieur )
-                        Technicien matériel servitude aéronautique
-                        Mission de sécurité intérieure ( Vigipirate / Cuirasse )</p>
+            <div className='margin-col-3 pl-6'>
+                <div className='exp-container'>
+                    <p className="text-2xl font-bold">2010 - 2021</p>
                 </div>
                 <div className="exp-container">
-                    <p className="text-xl font-bold">Projets Wild Code School Bordeaux : 02/21 - 07/21</p>
-                    <p>Site e-commerce  B to C pour une jeune start-up (Symfony)
+                    <p className="text-2xl font-bold">Projets Wild Code School Bordeaux</p>
+                    <p className='text-xl'>Site e-commerce  B to C pour une jeune start-up (Symfony)
                         Plateforme de jeux en simple MVC avec utilisation API REST</p>
                 </div>
-                <div className="exp-container">
-                    <p className="text-xl font-bold">Plateforme e-sport (bénévolat) : 08/21 - 09/21</p>
-                    <p>Migration projet MVC vers Symfony 5
-                        Intégration selon maquette</p>
+                <div className='exp-container'>
+                    <p className="text-2xl font-bold">08/21 - 09/21</p>
                 </div>
                 <div className="exp-container">
-                    <p className="text-xl font-bold">WDM studio  (stage) : 09/21 - 12/21</p>
-                    <p>Intégration selon maquette
+                    <p className="text-2xl font-bold">WDM studio (stage)</p>
+                    <p className='text-xl'>Intégration selon maquette
                         Gestion API sur Symfony</p>
                 </div>
-                <div className="exp-container">
-                    <p className="text-xl font-bold">Groupe QERYS (CDI) : 03/22 - 06/22</p>
-                    <p>Intégration selon maquette
-                        Gestion API sur Symfony</p>
+                <div className='exp-container'>
+                    <p className="text-2xl font-bold">03/22 - 06/22</p>
                 </div>
                 <div className="exp-container">
-                    <p className="text-xl font-bold">Projet Wid Code School Bordeaux : 03/23 - 11/23</p>
-                    <p>Blog interactif avec version mobile ( React / React Native )
+                    <p className="text-2xl font-bold">Projet Wid Code School Bordeaux</p>
+                    <p className='text-xl'>Blog interactif avec version mobile ( React / React Native )
                         Déploiement et intégration continue ( Docker / Github Actions )</p>
                 </div>
-                <div className="exp-container-3">
-                    <p className="text-xl font-bold">AIO (contrat pro + CDD) : 03/23 - actuellement en poste</p>
-                    <p>Chef d’équipe ( Sous-officier supérieur )
-                        Technicien matériel servitude aéronautique
-                        Mission de sécurité intérieure ( Vigipirate / Cuirasse )</p>
+                <div className='exp-container'>
+                    <p className="text-2xl font-bold">03/23 - Actuellement en poste</p>
                 </div>
+              
             </div>
+            {/*
+            
             <div className="square-wrapper">
                 <div className="square"></div>
             </div>
+            */}
         </div>
     );
 }

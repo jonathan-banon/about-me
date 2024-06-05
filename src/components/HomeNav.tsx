@@ -36,7 +36,7 @@ export default function HomeNav() {
         <div className="nav-container h-1/6">
             <IconContext.Provider value={{ size: '40px', color: 'white' }}>
                 <BiSolidLeftArrow onClick={() => navigate(previousPath)} />
-                <p className="text-2xl font-bold w-2/6 text-center">{title}</p>
+                <p className="text-3xl font-bold w-1/2 text-center">{title}</p>
                 <BiSolidRightArrow onClick={() => navigate(nextPath)} />
             </IconContext.Provider>
         </div>
