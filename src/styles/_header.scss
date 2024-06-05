@@ -2,7 +2,7 @@ header {
     position: fixed;
     top: 0;
     left: 0;
-    height: 28vh;
+    height: 25vh;
     z-index: 10;
 }
 
@@ -13,8 +13,8 @@ header {
 }
 
 .circle-1 {
-    width: 28vh;
-    height: 29vh;
+    width: 25vh;
+    height: 26vh;
     background-color: white;
     display: flex;
     justify-content: center;
@@ -23,9 +23,9 @@ header {
     background-image: url('../../public/profile.png');
     background-size: cover;
     background-repeat: no-repeat;
-    border: white 30px solid;
+    border: white 18px solid;
     background-position: -15px;
-    margin-right: -30px;
+    margin-right: -11px;
 }
 
 .header-top-right-container {

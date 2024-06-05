@@ -1,13 +1,13 @@
 .sideBar-container {
     position: fixed;
-    top: 28vh;
+    top: 25vh;
     left: 0;
     z-index: 10;
     background-color: $secondary-color;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    height: 72vh;
+    height: 75vh;
     width: 25%;
 }
 

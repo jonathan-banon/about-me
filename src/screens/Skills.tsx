@@ -13,7 +13,7 @@ import { FaGitAlt } from "react-icons/fa6";
 
 export default function Skills() {
     return (
-        <IconContext.Provider value={{ size: '40px', color: 'white' }}>
+        <IconContext.Provider value={{ size: '30px', color: 'white' }}>
             <div className="h-5/6">
                 <div className="flex w-full justify-around h-1/2 items-center overflow-hidden">
                     <div>
@@ -33,19 +33,19 @@ export default function Skills() {
                             </div>
                             <div className="skill-container absolute bottom-0 right-0">
                                 <TbBrandReactNative className="" />
-                                <p>React Native</p>
+                                <p className="text-center">React Native</p>
                             </div>
                         </div>
                     </div>
 
                     <div>
                         <p className="text-center text-xl font-bold">Outils</p>
-                        <div className="skills flex flex-col justify-between items-center">
-                            <div className="skill-container">
+                        <div className="skills rotationOut-2 flex flex-col justify-between items-center">
+                            <div className="skill-container rotationIn-2">
                                 <FaDocker />
                                 <p>Docker</p>
                             </div>
-                            <div className="skill-container">
+                            <div className="skill-container rotationIn-2">
                                 <FaGitAlt />
                                 <p>Git</p>
                             </div>
@@ -55,12 +55,12 @@ export default function Skills() {
                 <div className="flex w-full justify-around h-1/2 items-center overflow-hidden">
                     <div>
                         <p className="text-center text-xl font-bold">Bases de données</p>
-                        <div className="skills flex flex-col justify-between items-center">
-                            <div className="skill-container">
+                        <div className="skills rotationOut-2 flex flex-col justify-between items-center">
+                            <div className="skill-container rotationIn-2">
                                 <SiMysql />
                                 <p>MySQL</p>
                             </div>
-                            <div className="skill-container">
+                            <div className="skill-container rotationIn-2">
                                 <GrGraphQl />
                                 <p>GraphQL</p>
                             </div>
@@ -68,22 +68,21 @@ export default function Skills() {
                     </div>
                     <div>
                         <p className="text-center text-xl font-bold">Languages</p>
-                        <div className="skills relative">
-                            <div className="skill-container absolute top-0 left-0">
+                        <div className="skills rotationOut-3 relative">
+                            <div className="skill-container rotationIn-3 absolute top-0 left-0">
                                 <IoLogoJavascript />
                                 <p>Javascript</p>
                             </div>
-                            <div className="skill-container absolute top-0 right-0">
+                            <div className="skill-container rotationIn-3 absolute top-0 right-0">
                                 <FaPhp />
                                 <p>PHP</p>
                             </div>
-                            <div className="skill-container absolute bottom-0 left-1/4">
+                            <div className="skill-container rotationIn-3 absolute bottom-0 left-1/4">
                                 <SiTypescript />
                                 <p>Typescript</p>
                             </div>
                         </div>
                     </div>
-
                 </div>
             </div>
         </IconContext.Provider>

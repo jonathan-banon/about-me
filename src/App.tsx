@@ -12,7 +12,7 @@ function App() {
   return (
     <div className="App">
       <Header />
-      <main className='flex flex-row '>
+      <main className='flex flex-row h-full'>
         <SideBar />
         <div className='text-white body-container'>
           <HomeNav />
