@@ -10,9 +10,9 @@ import { MdOutlineSportsMotorsports } from "react-icons/md";
 export default function SideBar() {
     return (
 
-        <div className="sideBar-container">
+        <div className="sideBar-container text-primary p-2.5">
             <div>
-                <p className="font-bold text-primary text-2xl">CONTACT</p>
+                <p className="font-bold text-primary text-xl">CONTACT</p>
                 <div className="logo-container">
                     <IconContext.Provider value={{ size: '30px' }}>
                         <MdOutlinePhoneAndroid />
@@ -27,7 +27,7 @@ export default function SideBar() {
                 </div>
             </div>
             <div>
-                <p className="font-bold text-primary text-2xl">LiENS UTILES</p>
+                <p className="font-bold text-primary text-xl">LiENS UTILES</p>
                 <div>
                     <div className="logo-container">
                         <IconContext.Provider value={{ size: '30px' }}>
@@ -44,13 +44,13 @@ export default function SideBar() {
                 </div>
             </div>
             <div>
-                <p className="font-bold text-primary text-2xl">COMPETENCES RELATIONNELLES</p>
+                <p className="font-bold text-primary text-xl">COMPETENCES RELATIONNELLES</p>
                 <p>- Esprit déquipe</p>
                 <p>- Enthousiaste</p>
                 <p>- Adaptabilité</p>
             </div>
             <div>
-                <p className="font-bold text-primary text-2xl">LOISIRS</p>
+                <p className="font-bold text-primary text-xl">LOISIRS</p>
                 <div className="logo-container">
                     <IconContext.Provider value={{ size: '30px' }}>
                         <PiBoxingGloveBold />
