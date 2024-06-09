@@ -27,7 +27,7 @@ export default function SideBar() {
                 </div>
             </div>
             <div>
-                <p className="font-bold text-primary text-xl">LiENS UTILES</p>
+                <p className="font-bold text-primary text-xl">LIENS UTILES</p>
                 <div>
                     <div className="logo-container">
                         <IconContext.Provider value={{ size: '30px' }}>

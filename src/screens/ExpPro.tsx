@@ -36,7 +36,7 @@ export default function ExpPro() {
                     <p className="text-2xl font-bold animate__fadeInRightBig">Sous officier dans l’armée de l'air</p>
                     <p className='text-xl'>Chef d’équipe ( Sous-officier supérieur )</p>
                     <p className='text-xl'>Technicien matériel servitude aéronautique</p>
-                    <p className='text-xl'>Mission de sécurité intérieure ( Vigipirate / Cuirasse )</p>
+                    <p className='text-xl'>Missions de sécurité intérieure ( Vigipirate / Cuirasse )</p>
                 </div>
                 <div className='exp-container'>
                     <p className="text-2xl font-bold">02/21 - 07/21</p>
