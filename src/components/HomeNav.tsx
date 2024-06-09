@@ -10,7 +10,7 @@ export default function HomeNav() {
     let title = "";
     let previousPath = "/";
     let nextPath = "/";
-
+    console.log(location.pathname)
     switch (location.pathname) {
         case "/":
             title = "COMPÉTENCES TECHNIQUES";
@@ -30,14 +30,16 @@ export default function HomeNav() {
         default:
 
     }
-    console.log(location.pathname)
-    console.log(title)
     return (
-        <div className="nav-container h-1/6">
+        <div className="nav-container h-1/6 relative ">
             <IconContext.Provider value={{ size: '40px', color: 'white' }}>
-                <BiSolidLeftArrow onClick={() => navigate(previousPath)} />
+                {(location.pathname === "/Formations" || location.pathname === "/ExpPro") && (
+                    <BiSolidLeftArrow className=" cursor-pointer absolute left-20" onClick={() => navigate(previousPath)} />
+                )}
                 <p className="text-3xl font-bold w-1/2 text-center">{title}</p>
-                <BiSolidRightArrow onClick={() => navigate(nextPath)} />
+                {(location.pathname === "/" || location.pathname === "/Formations") && (
+                    <BiSolidRightArrow className=" cursor-pointer absolute right-20" onClick={() => navigate(nextPath)} />
+                )}
             </IconContext.Provider>
         </div>
     )
