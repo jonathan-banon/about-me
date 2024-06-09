@@ -33,7 +33,7 @@ export default function Skills() {
                             </div>
                         </div>
                     </div>
-                </div> 
+                </div>
                 <div className="w-1/3 flex items-start justify-center">
                     <div>
                         <p className="text-center text-2xl font-bold mb-7">Outils</p>
@@ -80,74 +80,6 @@ export default function Skills() {
                         </div>
                     </div>
                 </div>
-
-                { /*
-
-<div className="flex w-full justify-around h-1/2 items-center overflow-hidden">
-    <div>
-        <p className="text-center text-xl font-bold">Languages</p>
-        <div className="skills relative">
-            <div className="skill-container absolute top-0 left-0">
-                <IoLogoJavascript />
-                <p>Javascript</p>
-            </div>
-            <div className="skill-container absolute top-0 right-0">
-                <FaPhp />
-                <p>PHP</p>
-            </div>
-            <div className="skill-container absolute bottom-0 left-1/4">
-                <SiTypescript />
-                <p>Typescript</p>
-            </div>
-        </div>
-    </div>
-
-</div>
-<div className="flex w-full justify-around h-1/2 items-center overflow-hidden">
-    <div>
-        <p className="text-center text-xl font-bold">Outils</p>
-        <div className="skills relative">
-            <div className="skill-container absolute top-0 left-0">
-                <SiMysql />
-                <p>MySQL</p>
-            </div>
-            <div className="skill-container  absolute top-0 right-0">
-                <GrGraphQl />
-                <p>GraphQL</p>
-            </div>
-            <div className="skill-container  absolute bottom-0 left-0">
-                <FaDocker />
-                <p>Docker</p>
-            </div>
-            <div className="skill-container absolute bottom-0 right-0">
-                <FaGitAlt />
-                <p>Git</p>
-            </div>
-        </div>
-    </div>
-    <div>
-        <p className="text-center text-xl font-bold">Technologies</p>
-        <div className="skills relative">
-            <div className="skill-container absolute top-0 left-0">
-                <FaVuejs className="" />
-                <p>Vue.Js</p>
-            </div>
-            <div className="skill-container absolute top-0 right-0">
-                <FaSymfony className="" />
-                <p>Symfony</p>
-            </div>
-            <div className="skill-container absolute bottom-0 left-0">
-                <FaReact className="" />
-                <p>React</p>
-            </div>
-            <div className="skill-container absolute bottom-0 right-0">
-                <TbBrandReactNative className="" />
-                <p className="text-center">React Native</p>
-            </div>
-        </div>
-    </div>
-</div>
-*/}
             </div>
         </IconContext.Provider>
     )
