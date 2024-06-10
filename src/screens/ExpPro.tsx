@@ -58,11 +58,11 @@ export default function ExpPro() {
                     <div className=' exp-container animate__animated' >
                         <p className="text-2xl font-bold">03/23 - 11/23</p>
                     </div>
-                    <div className=" exp-container animate__animated" >
+                    <div className=" exp-container animate__animated">
                         <p className="text-2xl font-bold">AIO (contrat pro + CDD)</p>
-                        <p className='text-xl'>Chef d’équipe ( Sous-officier supérieur )</p>
-                        <p className='text-xl'>Technicien matériel servitude aéronautique</p>
-                        <p className='text-xl'> Mission de sécurité intérieure ( Vigipirate / Cuirasse )</p>
+                        <p className='text-xl'>Intégration selon maquette en Vue.js</p>
+                        <p className='text-xl'>Gestion de projet en bureau d’étude </p>
+                        <p className='text-xl'>Développement d’applications internes (Python, Node-red, Docker)</p>
                     </div>
 
                 </div>
