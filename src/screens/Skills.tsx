@@ -15,9 +15,8 @@ import { FaCss3Alt } from "react-icons/fa";
 export default function Skills() {
     return (
         <IconContext.Provider value={{ size: '40px', color: 'white' }}>
-            <div className="h-5/6  pb-14 flex">
-                <div className="w-1/3 flex items-end justify-center">
-                    <div className="">
+            <div className="skills-container">
+                    <div>
                         <p className="text-center text-2xl font-bold mb-7">Languages</p>
                         <div className="skills-bg">
                             <div className="skills relative">
@@ -40,8 +39,6 @@ export default function Skills() {
                             </div>
                         </div>
                     </div>
-                </div>
-                <div className="w-1/3 flex items-start justify-center">
                     <div>
                         <p className="text-center text-2xl font-bold mb-7">Outils</p>
                         <div className="skills-bg">
@@ -65,9 +62,7 @@ export default function Skills() {
                             </div>
                         </div>
                     </div>
-                </div>
-                <div className="w-1/3 flex items-end justify-center">
-                    <div className="">
+                    <div>
                         <p className="text-center text-2xl font-bold mb-7">Technologies</p>
                         <div className="skills-bg">
                             <div className="skills relative">
@@ -90,7 +85,6 @@ export default function Skills() {
                             </div>
                         </div>
                     </div>
-                </div>
             </div>
         </IconContext.Provider>
     )

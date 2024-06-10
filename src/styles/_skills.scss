@@ -18,10 +18,23 @@
 .skills-bg {
     border: solid 3px white;
     border-radius: 30px;
+    width: 36vh;
+    height: 36vh;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .skill-container p {
     font-size: 13px;
+}
+
+.skills-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 63vh;
 }
 
 @keyframes rotation1 {
