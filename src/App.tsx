@@ -6,6 +6,8 @@ import ExpPro from './screens/ExpPro';
 import Formations from './screens/Formations';
 import Skills from './screens/Skills';
 import HomeNav from './components/HomeNav'
+import Resume from './screens/Resume'
+
 
 
 function App() {
@@ -20,6 +22,7 @@ function App() {
             <Route path='/' element={<Skills />} />
             <Route path='/Formations' element={<Formations />} />
             <Route path='/ExpPro' element={<ExpPro />} />
+            <Route path='/Resume' element={<Resume />} />
           </Routes>
         </div>
       </main>

@@ -24,6 +24,11 @@ export default function HomeNav() {
         case "/ExpPro":
             title = "EXPERIENCES PROFESSIONNELLES";
             previousPath = "/Formations";
+            nextPath = "/Resume";
+            break;
+        case "/Resume":
+            title = "EN RESUME";
+            previousPath = "/ExpPro";
             nextPath = "/";
             break;
         default:
@@ -32,11 +37,11 @@ export default function HomeNav() {
     return (
         <div className="nav-container h-1/6 relative ">
             <IconContext.Provider value={{ size: '40px', color: 'white' }}>
-                {(location.pathname === "/Formations" || location.pathname === "/ExpPro") && (
+                {location.pathname !== "/" && (
                     <BiSolidLeftArrow className=" cursor-pointer absolute left-20" onClick={() => navigate(previousPath)} />
                 )}
                 <p className="text-3xl font-bold w-1/2 text-center">{title}</p>
-                {(location.pathname === "/" || location.pathname === "/Formations") && (
+                {location.pathname !== "/Resume"  && (
                     <BiSolidRightArrow className=" cursor-pointer absolute right-20" onClick={() => navigate(nextPath)} />
                 )}
             </IconContext.Provider>
