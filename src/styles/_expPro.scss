@@ -1,20 +1,22 @@
 .circle {
-    width: 50px;
-    height: 50px;
-    background-color: white;
-    border-radius: 200px;
-    margin-top: -10px;
+  width: 50px;
+  height: 50px;
+  background-color: white;
+  border-radius: 200px;
+  margin-top: -10px;
 }
 
 .line {
-    width: 15px;
-    height: 190px;
-    background-color: white;
-    margin-top: -10px;
+  width: 15px;
+  height: 190px;
+  background-color: white;
+  margin-top: -10px;
 }
 
 .exp-container {
   height: 220px;
+  opacity: 0;
+  transition: opacity 0.5s ease-out;
 }
 
 .square {
@@ -26,4 +28,8 @@
 
 .square-animation {
   background: red;
+}
+
+.exp-container.visible {
+  opacity: 1;
 }

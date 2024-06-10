@@ -10,7 +10,6 @@ export default function HomeNav() {
     let title = "";
     let previousPath = "/";
     let nextPath = "/";
-    console.log(location.pathname)
     switch (location.pathname) {
         case "/":
             title = "COMPÉTENCES TECHNIQUES";

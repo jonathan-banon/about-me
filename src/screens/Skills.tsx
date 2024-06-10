@@ -10,10 +10,11 @@ import { SiTypescript } from "react-icons/si";
 import { FaDocker } from "react-icons/fa";
 import { IoLogoJavascript } from "react-icons/io5";
 import { FaGitAlt } from "react-icons/fa6";
+import { FaCss3Alt } from "react-icons/fa";
 
 export default function Skills() {
     return (
-        <IconContext.Provider value={{ size: '30px', color: 'white' }}>
+        <IconContext.Provider value={{ size: '40px', color: 'white' }}>
             <div className="h-5/6  pb-14 flex">
                 <div className="w-1/3 flex items-end justify-center">
                     <div className="">
@@ -27,9 +28,13 @@ export default function Skills() {
                                 <FaPhp />
                                 <p>PHP</p>
                             </div>
-                            <div className="skill-container absolute bottom-0 left-1/4">
+                            <div className="skill-container absolute bottom-0 left-0">
                                 <SiTypescript />
                                 <p>Typescript</p>
+                            </div>
+                            <div className="skill-container absolute bottom-0 right-0">
+                                <FaCss3Alt />
+                                <p>CSS</p>
                             </div>
                         </div>
                     </div>
