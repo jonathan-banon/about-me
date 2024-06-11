@@ -8,28 +8,28 @@ export default function HomeNav() {
     const navigate = useNavigate();
 
     let title = "";
-    let previousPath = "/";
+    let previousPath = "About-me/";
     let nextPath = "/";
     switch (location.pathname) {
-        case "/":
+        case "About-me/":
             title = "MES COMPÉTENCES TECHNIQUES";
-            previousPath = "/ExpPro";
-            nextPath = "/Formations";
+            previousPath = "About-me/ExpPro";
+            nextPath = "About-me/Formations";
             break;
-        case "/Formations":
+        case "About-me/Formations":
             title = "MES FORMATIONS";
-            previousPath = "/";
-            nextPath = "/ExpPro";
+            previousPath = "About-me/";
+            nextPath = "About-me/ExpPro";
             break;
-        case "/ExpPro":
+        case "About-me/ExpPro":
             title = "MES EXPÉRIENCES PROFESSIONNELLES";
-            previousPath = "/Formations";
-            nextPath = "/Resume";
+            previousPath = "About-me/Formations";
+            nextPath = "About-me/Resume";
             break;
-        case "/Resume":
+        case "About-me/Resume":
             title = "MON RÉSUMÉ";
-            previousPath = "/ExpPro";
-            nextPath = "/";
+            previousPath = "About-me/ExpPro";
+            nextPath = "About-me/";
             break;
         default:
 
@@ -37,11 +37,11 @@ export default function HomeNav() {
     return (
         <div className="nav-container h-1/6 relative ">
             <IconContext.Provider value={{ size: '40px', color: 'white' }}>
-                {location.pathname !== "/" && (
+                {location.pathname !== "About-me/" && (
                     <BiSolidLeftArrow className=" cursor-pointer absolute left-20" onClick={() => navigate(previousPath)} />
                 )}
                 <p className="text-3xl font-bold w-1/2 text-center">{title}</p>
-                {location.pathname !== "/Resume"  && (
+                {location.pathname !== "About-me/Resume"  && (
                     <BiSolidRightArrow className=" cursor-pointer absolute right-20" onClick={() => navigate(nextPath)} />
                 )}
             </IconContext.Provider>
