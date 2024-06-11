@@ -10,6 +10,7 @@ export default function HomeNav() {
     let title = "";
     let previousPath = "/About-me/";
     let nextPath = "/About-me/";
+    console.log(location.pathname)
     switch (location.pathname) {
         case "/About-me/":
             title = "MES COMPÉTENCES TECHNIQUES";
