@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/About-me/static/css/main.0fcd282d.css",
-    "main.js": "/About-me/static/js/main.7ef0aece.js",
+    "main.js": "/About-me/static/js/main.2ef82c06.js",
     "static/js/453.ed3810f9.chunk.js": "/About-me/static/js/453.ed3810f9.chunk.js",
     "static/media/Sippin On Sunshine - OTF.otf": "/About-me/static/media/Sippin On Sunshine - OTF.73056e05af82ad087e8a.otf",
     "static/media/profile.png": "/About-me/static/media/profile.a668e3aba0ecd7c2f9b0.png",
     "index.html": "/About-me/index.html",
     "main.0fcd282d.css.map": "/About-me/static/css/main.0fcd282d.css.map",
-    "main.7ef0aece.js.map": "/About-me/static/js/main.7ef0aece.js.map",
+    "main.2ef82c06.js.map": "/About-me/static/js/main.2ef82c06.js.map",
     "453.ed3810f9.chunk.js.map": "/About-me/static/js/453.ed3810f9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.0fcd282d.css",
-    "static/js/main.7ef0aece.js"
+    "static/js/main.2ef82c06.js"
   ]
 }
