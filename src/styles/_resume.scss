@@ -1,33 +1,46 @@
-
 .typewriter {
   width: 70%;
   overflow: hidden;
   position: relative;
   margin: auto;
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  justify-content: space-around;
   align-items: center;
   height: 84%;
 
   h1 {
+    line-height: 6vh;
     text-align: center;
-   // border-right: .15em solid orange; // Le curseur de la machine à écrire
+    // border-right: .15em solid orange; // Le curseur de la machine à écrire
     white-space: pre-wrap;
     word-break: break-word; // Permet de casser les mots trop longs
     margin: 0; // Supprime la marge par défaut
-    letter-spacing: .15em; 
-   // animation: typing 10s steps(100, end), blink-caret .75s step-end infinite;
+    letter-spacing: .15em;
+    // animation: typing 10s steps(100, end), blink-caret .75s step-end infinite;
   }
 }
 
 // L'effet de la machine à écrire
 @keyframes typing {
-  from { width: 0 }
-  to { width: 100% }
+  from {
+    width: 0
+  }
+
+  to {
+    width: 100%
+  }
 }
 
 // L'effet du curseur de la machine à écrire
 @keyframes blink-caret {
-  from, to { border-color: transparent }
-  50% { border-color: orange }
+
+  from,
+  to {
+    border-color: transparent
+  }
+
+  50% {
+    border-color: orange
+  }
 }

@@ -12,22 +12,22 @@ export default function HomeNav() {
     let nextPath = "/";
     switch (location.pathname) {
         case "/":
-            title = "COMPÉTENCES TECHNIQUES";
+            title = "MES COMPÉTENCES TECHNIQUES";
             previousPath = "/ExpPro";
             nextPath = "/Formations";
             break;
         case "/Formations":
-            title = "FORMATIONS";
+            title = "MES FORMATIONS";
             previousPath = "/";
             nextPath = "/ExpPro";
             break;
         case "/ExpPro":
-            title = "EXPERIENCES PROFESSIONNELLES";
+            title = "MES EXPÉRIENCES PROFESSIONNELLES";
             previousPath = "/Formations";
             nextPath = "/Resume";
             break;
         case "/Resume":
-            title = "EN RESUME";
+            title = "MON RÉSUMÉ";
             previousPath = "/ExpPro";
             nextPath = "/";
             break;
