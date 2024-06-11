@@ -19,10 +19,10 @@ function App() {
         <div className='text-white body-container'>
           <HomeNav />
           <Routes>
-            <Route path='About-me/' element={<Skills />} />
-            <Route path='About-me/Formations' element={<Formations />} />
-            <Route path='About-me/ExpPro' element={<ExpPro />} />
-            <Route path='About-me/Resume' element={<Resume />} />
+            <Route path='/About-me/' element={<Skills />} />
+            <Route path='/About-me/Formations' element={<Formations />} />
+            <Route path='/About-me/ExpPro' element={<ExpPro />} />
+            <Route path='/About-me/Resume' element={<Resume />} />
           </Routes>
         </div>
       </main>

@@ -8,28 +8,28 @@ export default function HomeNav() {
     const navigate = useNavigate();
 
     let title = "";
-    let previousPath = "About-me/";
-    let nextPath = "/";
+    let previousPath = "/About-me/";
+    let nextPath = "/About-me/";
     switch (location.pathname) {
-        case "About-me/":
+        case "/About-me/":
             title = "MES COMPÉTENCES TECHNIQUES";
-            previousPath = "About-me/ExpPro";
-            nextPath = "About-me/Formations";
+            previousPath = "/About-me/ExpPro";
+            nextPath = "/About-me/Formations";
             break;
-        case "About-me/Formations":
+        case "/About-me/Formations":
             title = "MES FORMATIONS";
-            previousPath = "About-me/";
-            nextPath = "About-me/ExpPro";
+            previousPath = "/About-me/";
+            nextPath = "/About-me/ExpPro";
             break;
-        case "About-me/ExpPro":
+        case "/About-me/ExpPro":
             title = "MES EXPÉRIENCES PROFESSIONNELLES";
-            previousPath = "About-me/Formations";
-            nextPath = "About-me/Resume";
+            previousPath = "/About-me/Formations";
+            nextPath = "/About-me/Resume";
             break;
-        case "About-me/Resume":
+        case "/About-me/Resume":
             title = "MON RÉSUMÉ";
-            previousPath = "About-me/ExpPro";
-            nextPath = "About-me/";
+            previousPath = "/About-me/ExpPro";
+            nextPath = "/About-me/";
             break;
         default:
 
@@ -37,11 +37,11 @@ export default function HomeNav() {
     return (
         <div className="nav-container h-1/6 relative ">
             <IconContext.Provider value={{ size: '40px', color: 'white' }}>
-                {location.pathname !== "About-me/" && (
+                {location.pathname !== "/About-me/" && (
                     <BiSolidLeftArrow className=" cursor-pointer absolute left-20" onClick={() => navigate(previousPath)} />
                 )}
                 <p className="text-3xl font-bold w-1/2 text-center">{title}</p>
-                {location.pathname !== "About-me/Resume"  && (
+                {location.pathname !== "/About-me/Resume"  && (
                     <BiSolidRightArrow className=" cursor-pointer absolute right-20" onClick={() => navigate(nextPath)} />
                 )}
             </IconContext.Provider>
