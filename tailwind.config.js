@@ -9,16 +9,16 @@ module.exports = {
         primary: '#195D7E',
       },
       fontSize: {
-        'xs': '0.75rem', // Taille de police extra petite
-        'sm': '0.875rem', // Taille de police petite
-        'base': '1rem', // Taille de police de base (16px)
-        'lg': '1.125rem', // Taille de police grande
-        'xl': '1.20rem', // Taille de police très grande
-        '2xl': '1.5rem', // Taille de police encore plus grande
-        '3xl': '1.875rem', // Taille de police encore plus grande
-        '4xl': '2.25rem', // Taille de police très grande
-        '5xl': '3rem', // Taille de police extrêmement grande
-        '6xl': '4rem', // Taille de police énorme
+        'xs': '0.75rem', 
+        'sm': '0.875rem', 
+        'base': '1rem', 
+        'lg': '1.125rem', 
+        'xl': '1.20rem', 
+        '2xl': '1.5rem', 
+        '3xl': '1.875rem', 
+        '4xl': '2.25rem', 
+        '5xl': '3rem',
+        '6xl': '4rem', 
       },
     },
   },
