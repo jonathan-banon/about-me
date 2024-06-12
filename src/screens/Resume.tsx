@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 
 const resume: string = "Jeune diplômé du titre RNCP concepteur développeur d'application \n(Bac +3 via une alternance React / React-native), j’ai aussi eu la chance de me développer sur plusieurs technologies durant mon parcours tel que Symfony, Vue.js et Docker. J’aime le travail en équipe et le partage de connaissances mais je suis également capable de travailler en autonomie.";
-const secondResume: string = "Si mon profil vous intéresse, je vous invite a me mettre a l'épreuve.\n \nCordialement";
+const secondResume: string = "Si mon profil vous intéresse, je vous invite à me mettre à l'épreuve.\n \nCordialement";
 
 const Resume: React.FC = () => {
   const [displayedText, setDisplayedText] = useState<string>('');
