@@ -53,8 +53,8 @@ const Resume: React.FC = () => {
 
   return (
     <div className="typewriter">
-      <h1 className='text-2xl'>{displayedText}</h1>
-      <h1 className='text-2xl'>{displayedText2}</h1>
+      <h1 className='text-xl'>{displayedText}</h1>
+      <h1 className='text-xl'>{displayedText2}</h1>
     </div>
   );
 };

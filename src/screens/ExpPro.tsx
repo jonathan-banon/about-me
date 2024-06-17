@@ -5,7 +5,7 @@ export default function ExpPro() {
         const observerOptions = {
             root: null,
             rootMargin: '-45% 0px 0px 0px',
-            threshold: 0.1 // 10% of the element must be visible
+            threshold: 0.1
         };
         const observer = new IntersectionObserver(entries => {
             entries.forEach(entry => {
@@ -35,9 +35,9 @@ export default function ExpPro() {
                 <div className='text-end pr-6'>
                     <div className=" exp-container animate__animated" >
                         <p className="text-2xl font-bold">Sous officier dans l’armée de l'air</p>
-                        <p className='text-xl'>Chef d’équipe ( Sous-officier supérieur )</p>
+                        <p className='text-xl'>Chef d’équipe (Sous-officier supérieur)</p>
                         <p className='text-xl'>Technicien matériel servitude aéronautique</p>
-                        <p className='text-xl'>Missions de sécurité intérieure ( Vigipirate / Cuirasse )</p>
+                        <p className='text-xl'>Missions de sécurité intérieure (Vigipirate / Cuirasse)</p>
                     </div>
                     <div className=' exp-container animate__animated' >
                         <p className="text-2xl font-bold">02/21 - 07/21</p>
@@ -62,7 +62,7 @@ export default function ExpPro() {
                         <p className="text-2xl font-bold">AIO (contrat pro + CDD)</p>
                         <p className='text-xl'>Intégration selon maquette en Vue.js</p>
                         <p className='text-xl'>Gestion de projet en bureau d’étude </p>
-                        <p className='text-xl'>Développement d’applications internes (Python, Node-red, Docker)</p>
+                        <p className='text-xl'>Développement d’applications internes <br></br>(Python, Node-red, Docker)</p>
                     </div>
 
                 </div>
@@ -103,8 +103,8 @@ export default function ExpPro() {
                     </div>
                     <div className=" exp-container animate__animated" >
                         <p className="text-2xl font-bold">Projet Wid Code School Bordeaux</p>
-                        <p className='text-xl'>Blog interactif avec version mobile ( React / React Native )</p>
-                        <p className='text-xl'>Déploiement et intégration continue ( Docker / Github Actions )</p>
+                        <p className='text-xl'>Blog interactif avec version mobile <br></br>(React / React Native)</p>
+                        <p className='text-xl'>Déploiement et intégration continue <br></br> (Docker / Github Actions)</p>
                     </div>
                     <div className=' exp-container animate__animated' >
                         <p className="text-2xl font-bold">03/23 - Actuellement en poste</p>
@@ -112,5 +112,5 @@ export default function ExpPro() {
                 </div>
             </div>
         </div>
-    );
+   );
 }

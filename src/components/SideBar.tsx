@@ -17,13 +17,13 @@ export default function SideBar() {
                     <IconContext.Provider value={{ size: '30px' }}>
                         <MdOutlinePhoneAndroid />
                     </IconContext.Provider>
-                    <p>06 .. .. .. ..</p>
+                    <p>06 40 55 97 17</p>
                 </div>
                 <div className="logo-container">
                     <IconContext.Provider value={{ size: '30px' }}>
                         <IoMailOutline />
                     </IconContext.Provider>
-                    <p>monMail@gmail.com</p>
+                    <a className="hover:font-bold" href="mailto:j.banon01@gmail.com">j.banon01@gmail.com</a>
                 </div>
             </div>
             <div>
@@ -33,21 +33,23 @@ export default function SideBar() {
                         <IconContext.Provider value={{ size: '30px' }}>
                             <FaGithub />
                         </IconContext.Provider>
-                        <p>Github</p>
+                        <a className="hover:font-bold" href="https://github.com/jonathan-banon" target="_blank" rel="noreferrer">Github</a>
                     </div>
                     <div className="logo-container">
                         <IconContext.Provider value={{ size: '30px' }}>
                             <FaLinkedin />
                         </IconContext.Provider>
-                        <p>monMail@gmail.com</p>
+                        <a className="hover:font-bold" href="https://www.linkedin.com/in/jonathan-banon/" target="_blank" rel="noreferrer">Linkedin</a>
                     </div>
                 </div>
             </div>
             <div>
-                <p className="font-bold text-primary text-xl">COMPETENCES RELATIONNELLES</p>
-                <p>- Esprit déquipe</p>
-                <p>- Enthousiaste</p>
-                <p>- Adaptabilité</p>
+                <ul className="list-disc">
+                    <p className="font-bold text-primary text-xl">COMPETENCES RELATIONNELLES</p>
+                    <li className="ml-4">Esprit d'équipe</li>
+                    <li className="ml-4">Enthousiaste</li>
+                    <li className="ml-4"> Adaptabilité</li>
+                </ul>
             </div>
             <div>
                 <p className="font-bold text-primary text-xl">LOISIRS</p>
