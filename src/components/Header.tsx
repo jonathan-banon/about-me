@@ -8,8 +8,8 @@ export default function Header() {
                 </div>
                 <div className="basis-4/5 title-container">
                     <div className="header-top-right-container">
-                    <p className="text-primary text-5xl myTitle">Jonathan Banon</p>
-                    <p className="text-primary text-6xl myTitle">Développeur React / Symfony</p>
+                    <p className="text-primary text-4xl myTitle">Jonathan Banon</p>
+                    <p className="text-primary text-5xl myTitle">Développeur React / Symfony</p>
                     </div>
                 </div>
             </div>
