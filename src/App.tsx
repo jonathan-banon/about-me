@@ -44,7 +44,7 @@ function App() {
     );
   } else {
     return (
-      <div className="App">
+      <div className="App flex justify-center items-center">
       <h1 className='text-white font-bold text-4xl text-center'>Format mobile en cours de développement</h1>
       </div>
     )
