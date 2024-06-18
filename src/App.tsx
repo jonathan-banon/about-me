@@ -10,6 +10,7 @@ import Resume from './screens/Resume'
 import { useLayoutEffect, useState } from 'react';
 import HeaderMobile from './components/HeaderMobile';
 import SideBarMobile from './components/SideBarMobile';
+import SkillsMobile from './screens/SkillsMobile';
 
 
 
@@ -28,7 +29,6 @@ function App() {
 
     return (
       <div className="App">
-
         <Header />
         <main className='flex flex-row h-full'>
           <SideBar />
@@ -46,9 +46,10 @@ function App() {
     );
   } else {
     return (
-      <div className="App">
+      <div className="App overflow-scroll">
         <HeaderMobile />
         <SideBarMobile />
+        <SkillsMobile />
       </div>
     )
   }
