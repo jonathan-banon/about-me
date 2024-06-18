@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/About-me/static/css/main.32025b62.css",
-    "main.js": "/About-me/static/js/main.d5d8b056.js",
+    "main.css": "/About-me/static/css/main.31c97acf.css",
+    "main.js": "/About-me/static/js/main.8b76942c.js",
     "static/js/453.ed3810f9.chunk.js": "/About-me/static/js/453.ed3810f9.chunk.js",
     "static/media/Sippin On Sunshine - OTF.otf": "/About-me/static/media/Sippin On Sunshine - OTF.73056e05af82ad087e8a.otf",
     "static/media/profile.png": "/About-me/static/media/profile.a668e3aba0ecd7c2f9b0.png",
     "index.html": "/About-me/index.html",
-    "main.32025b62.css.map": "/About-me/static/css/main.32025b62.css.map",
-    "main.d5d8b056.js.map": "/About-me/static/js/main.d5d8b056.js.map",
+    "main.31c97acf.css.map": "/About-me/static/css/main.31c97acf.css.map",
+    "main.8b76942c.js.map": "/About-me/static/js/main.8b76942c.js.map",
     "453.ed3810f9.chunk.js.map": "/About-me/static/js/453.ed3810f9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.32025b62.css",
-    "static/js/main.d5d8b056.js"
+    "static/css/main.31c97acf.css",
+    "static/js/main.8b76942c.js"
   ]
 }
