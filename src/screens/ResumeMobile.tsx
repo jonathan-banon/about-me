@@ -1,8 +1,7 @@
 import { useState, useEffect } from 'react';
-export default function Resume() {
+export default function ResumeMobile() {
   const resume: string = "Jeune diplômé du titre RNCP concepteur développeur d'application \n(Bac +3 via une alternance React / React-native), j’ai aussi eu la chance de me développer sur plusieurs technologies durant mon parcours tel que Symfony, Vue.js et Docker. J’aime le travail en équipe et le partage de connaissances mais je suis également capable de travailler en autonomie.";
   const secondResume: string = "Si mon profil vous intéresse, je vous invite à me mettre à l'épreuve.\n \nCordialement";
-
   const [displayedText, setDisplayedText] = useState<string>('');
   const [currentIndex, setCurrentIndex] = useState<number>(0);
   const [finishedFirstResume, setFinishedFirstResume] = useState<boolean>(false);
@@ -51,9 +50,13 @@ export default function Resume() {
   }, [currentIndex2, displaySecondResume]);
 
   return (
-    <div className="typewriter">
-      <h1 className='text-xl'>{displayedText}</h1>
-      <h1 className='text-xl'>{displayedText2}</h1>
+    <div className="text-white h-fit flex flex-col items-center p-2.5">
+      <div className="mob-title">
+        <h1>MON RÉSUMÉ</h1>
+      </div>
+      <h1 className='text-lg text-center mb-2.5'>{displayedText}</h1>
+      <h1 className='text-lg text-center mb-2.5'>{displayedText2}</h1>
     </div>
   );
 };
+

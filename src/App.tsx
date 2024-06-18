@@ -13,6 +13,7 @@ import SideBarMobile from './components/SideBarMobile';
 import SkillsMobile from './screens/SkillsMobile';
 import FormationsMobile from './screens/FormationsMobile';
 import ExpPrMobile from './screens/ExpProMobile';
+import ResumeMobile from './screens/ResumeMobile';
 
 
 
@@ -54,6 +55,7 @@ function App() {
         <SkillsMobile />
         <FormationsMobile />
         <ExpPrMobile />
+        <ResumeMobile />
       </div>
     )
   }
