@@ -11,6 +11,7 @@ import { useLayoutEffect, useState } from 'react';
 import HeaderMobile from './components/HeaderMobile';
 import SideBarMobile from './components/SideBarMobile';
 import SkillsMobile from './screens/SkillsMobile';
+import FormationsMobile from './screens/FormationsMobile';
 
 
 
@@ -50,6 +51,7 @@ function App() {
         <HeaderMobile />
         <SideBarMobile />
         <SkillsMobile />
+        <FormationsMobile />
       </div>
     )
   }

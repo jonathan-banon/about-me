@@ -17,7 +17,7 @@ export default function SkillsMobile() {
         <IconContext.Provider value={{ size: '40px', color: 'white' }}>
             <div className="skills-container skills-mob">
                 <div className="mob-title">
-                    <h1 >MES FORMATIONS</h1>
+                    <h1>MES COMPÉTENCES TECHNIQUES</h1>
                 </div>
                 <div>
                     <p className="text-center text-2xl font-bold mb-7">Languages</p>
@@ -43,7 +43,7 @@ export default function SkillsMobile() {
                     </div>
                 </div>
                 <div>
-                    <p className="text-center text-2xl font-bold mb-7">Outils</p>
+                    <p className="text-center text-2xl font-bold mb-7 mt-14">Outils</p>
                     <div className="skills-bg">
                         <div className="skills relative">
                             <div className="skill-container absolute top-0 left-0">
@@ -66,7 +66,7 @@ export default function SkillsMobile() {
                     </div>
                 </div>
                 <div>
-                    <p className="text-center text-2xl font-bold mb-7">Technologies</p>
+                    <p className="text-center text-2xl font-bold mb-7 mt-14">Technologies</p>
                     <div className="skills-bg">
                         <div className="skills relative">
                             <div className="skill-container absolute top-0 left-0">

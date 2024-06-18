@@ -10,6 +10,7 @@ export default function ExpPro() {
         const observer = new IntersectionObserver(entries => {
             entries.forEach(entry => {
                 if (entry.isIntersecting) {
+                    console.log('okkk')
                     entry.target.classList.add('animate__fadeIn', 'visible')
                 } else {
                     entry.target.classList.remove('animate__fadeIn', 'visible')
