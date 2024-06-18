@@ -11,62 +11,62 @@ export default function SideBarMobile() {
     return (
 
         <div className="text-white p-2.5 sideBar-mob-container">
-            <div className="flex justify-around">
-                <div>
-                    <p className="font-bold text-white text-xl">CONTACT</p>
-                    <div className="logo-container">
+            <div className="flex justify-between h-1/2">
+                <div className="w-1/2">
+                    <p className="font-bold text-white text-base">CONTACT</p>
+                    <div className="logo-container mt-6">
                         <IconContext.Provider value={{ size: '20px' }}>
                             <MdOutlinePhoneAndroid />
                         </IconContext.Provider>
-                        <p>06 40 55 97 17</p>
+                        <p className="text-xs">06 40 55 97 17</p>
                     </div>
-                    <div className="logo-container">
+                    <div className="logo-container mt-6">
                         <IconContext.Provider value={{ size: '20px' }}>
                             <IoMailOutline />
                         </IconContext.Provider>
-                        <a className="hover:font-bold" href="mailto:j.banon01@gmail.com">j.banon01@gmail.com</a>
+                        <a className="text-xs" href="mailto:j.banon01@gmail.com">j.banon01@gmail.com</a>
                     </div>
                 </div>
-                <div>
-                    <p className="font-bold text-white text-xl">LIENS UTILES</p>
+                <div className="w-1/2">
+                    <p className="font-bold text-white text-base">LIENS UTILES</p>
                     <div>
-                        <div className="logo-container">
+                        <div className="logo-container mt-6">
                             <IconContext.Provider value={{ size: '20px' }}>
                                 <FaGithub />
                             </IconContext.Provider>
-                            <a className="hover:font-bold" href="https://github.com/jonathan-banon" target="_blank" rel="noreferrer">Github</a>
+                            <a className="text-xs" href="https://github.com/jonathan-banon" target="_blank" rel="noreferrer">Github</a>
                         </div>
-                        <div className="logo-container">
+                        <div className="logo-container mt-6">
                             <IconContext.Provider value={{ size: '20px' }}>
                                 <FaLinkedin />
                             </IconContext.Provider>
-                            <a className="hover:font-bold" href="https://www.linkedin.com/in/jonathan-banon/" target="_blank" rel="noreferrer">Linkedin</a>
+                            <a className="text-xs" href="https://www.linkedin.com/in/jonathan-banon/" target="_blank" rel="noreferrer">Linkedin</a>
                         </div>
                     </div>
                 </div>
             </div>
-            <div className="flex justify-around">
-                <div>
-                    <ul className="list-disc">
-                        <p className="font-bold text-white text-xl">COMPETENCES RELATIONNELLES</p>
+            <div className="flex justify-between h-1/2">
+                <div className="w-1/2">
+                    <p className="font-bold text-white text-base">COMPETENCES RELATIONNELLES</p>
+                    <ul className="list-disc text-xs mt-6 leading-6">
                         <li className="ml-4">Esprit d'équipe</li>
                         <li className="ml-4">Enthousiaste</li>
                         <li className="ml-4"> Adaptabilité</li>
                     </ul>
                 </div>
-                <div>
-                    <p className="font-bold text-white text-xl">LOISIRS</p>
-                    <div className="logo-container">
-                        <IconContext.Provider value={{ size: '30px' }}>
+                <div className="w-1/2 mt-6">
+                    <p className="font-bold text-white text-base">LOISIRS</p>
+                    <div className="logo-container mt-6">
+                        <IconContext.Provider value={{ size: '20px' }}>
                             <PiBoxingGloveBold />
                         </IconContext.Provider>
-                        <p>Combattant dans l'âme</p>
+                        <p className="text-xs">Combattant dans l'âme</p>
                     </div>
-                    <div className="logo-container">
+                    <div className="logo-container mt-6">
                         <IconContext.Provider value={{ size: '20px' }}>
                             <MdOutlineSportsMotorsports />
                         </IconContext.Provider>
-                        <p>Bébé motard</p>
+                        <p className="text-xs">Bébé motard</p>
                     </div>
                 </div>
             </div>
