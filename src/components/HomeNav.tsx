@@ -1,3 +1,4 @@
+import { useLayoutEffect, useState } from "react";
 import { IconContext } from "react-icons";
 import { BiSolidLeftArrow } from "react-icons/bi";
 import { BiSolidRightArrow } from "react-icons/bi";
@@ -10,7 +11,6 @@ export default function HomeNav() {
     let title = "";
     let previousPath = "/About-me/";
     let nextPath = "/About-me/";
-    console.log(location.pathname)
     switch (location.pathname) {
         case "/About-me/":
             title = "MES COMPÉTENCES TECHNIQUES";
@@ -42,7 +42,7 @@ export default function HomeNav() {
                     <BiSolidLeftArrow className=" cursor-pointer absolute left-20" onClick={() => navigate(previousPath)} />
                 )}
                 <p className="text-3xl font-bold w-1/2 text-center">{title}</p>
-                {location.pathname !== "/About-me/Resume"  && (
+                {location.pathname !== "/About-me/Resume" && (
                     <BiSolidRightArrow className=" cursor-pointer absolute right-20" onClick={() => navigate(nextPath)} />
                 )}
             </IconContext.Provider>

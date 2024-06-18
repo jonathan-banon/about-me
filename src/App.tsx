@@ -7,27 +7,48 @@ import Formations from './screens/Formations';
 import Skills from './screens/Skills';
 import HomeNav from './components/HomeNav'
 import Resume from './screens/Resume'
+import { useLayoutEffect, useState } from 'react';
 
 
 
 function App() {
-  return (
-    <div className="App">
-      <Header />
-      <main className='flex flex-row h-full'>
-        <SideBar />
-        <div className='text-white body-container'>
-          <HomeNav />
-          <Routes>
-            <Route path='/About-me/' element={<Skills />} />
-            <Route path='/About-me/Formations' element={<Formations />} />
-            <Route path='/About-me/ExpPro' element={<ExpPro />} />
-            <Route path='/About-me/Resume' element={<Resume />} />
-          </Routes>
-        </div>
-      </main>
-    </div>
-  );
+  const [isSmallScreen, setIsSmallScreen] = useState(false)
+  useLayoutEffect(() => {
+    function updateScreenSize() {
+      console.log(window.innerWidth)
+      setIsSmallScreen(window.innerWidth < 1366)
+    }
+    window.addEventListener('resize', updateScreenSize);
+    updateScreenSize();
+    return () => window.removeEventListener('resize', updateScreenSize);
+  }, [])
+  if (!isSmallScreen) {
+
+    return (
+      <div className="App">
+
+        <Header />
+        <main className='flex flex-row h-full'>
+          <SideBar />
+          <div className='text-white body-container'>
+            <HomeNav />
+            <Routes>
+              <Route path='/About-me/' element={<Skills />} />
+              <Route path='/About-me/Formations' element={<Formations />} />
+              <Route path='/About-me/ExpPro' element={<ExpPro />} />
+              <Route path='/About-me/Resume' element={<Resume />} />
+            </Routes>
+          </div>
+        </main>
+      </div>
+    );
+  } else {
+    return (
+      <div className="App">
+      <h1 className='text-white font-bold text-4xl text-center'>Format mobile en cours de développement</h1>
+      </div>
+    )
+  }
 }
 
 export default App;
