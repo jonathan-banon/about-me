@@ -9,7 +9,6 @@ import HomeNav from './components/HomeNav'
 import Resume from './screens/Resume'
 import { useLayoutEffect, useState } from 'react';
 import HeaderMobile from './components/HeaderMobile';
-import SideBarMobile from './components/SideBarMobile';
 
 
 
@@ -48,7 +47,6 @@ function App() {
     return (
       <div className="App flex justify-center items-center">
         <HeaderMobile />
-        <SideBarMobile />
       </div>
     )
   }
