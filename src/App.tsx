@@ -8,6 +8,8 @@ import Skills from './screens/Skills';
 import HomeNav from './components/HomeNav'
 import Resume from './screens/Resume'
 import { useLayoutEffect, useState } from 'react';
+import HeaderMobile from './components/HeaderMobile';
+import SideBarMobile from './components/SideBarMobile';
 
 
 
@@ -45,7 +47,8 @@ function App() {
   } else {
     return (
       <div className="App flex justify-center items-center">
-      <h1 className='text-white font-bold text-4xl text-center'>Format mobile en cours de développement</h1>
+        <HeaderMobile />
+        <SideBarMobile />
       </div>
     )
   }
